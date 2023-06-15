@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background: gold; */
+}
+form{
+    margin-top: 50px;
+    background: #6495ED;
+    padding: 50px;
+    border:2px solid greenyellow ;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 0.2 rgba(0,0,0,.2);
+}
+form h2{
+   margin-bottom: 10px;
+   color: white;
+   text-align: center;
+}
+form span{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #e22b34;
+}
+form input {
+    width: 200px;
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 2px solid #CCCCFF;
+    border-radius: 5px;
+    text-align: center;
+}
+form input:hover {
+    background: #6495ED;
+    color: white;
+}
+form button {
+    margin-top: 10px;
+    margin-left: 280px;
+    width: 50px ;
+    height: 27px ;
+    border-radius: 5px;
+    border: 2px solid #9FE2BF;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    font-weight: 500;
+    color: black;
+}
+form button:hover{
+    background: yellow;
+    color: #6495ED;
+}
+form div h3 {
+    text-align: center; 
+    font-size: 15px;
+    color: #FF7F50;
+    margin-bottom: 10px;
+    background: #9FE2BF;
+    margin-top: 10px;
+    border: 3px solid #FFBF00;
+    border-radius: 10px;
+}
+form div input.card-id {
+    margin-left: 60px;
+    padding: 15px;
+    background: #DE3163;
+    color: white;
+    font-size: 17px;
+}
+form div input.text-sal {
+    margin-left: 60px;
+    padding: 15px;
+    background: #FF00FF;
+    color: white;
+    font-size: 17px;
+} 
+.p{
+    text-align: center;
+    background: #FF00FF;
+}
